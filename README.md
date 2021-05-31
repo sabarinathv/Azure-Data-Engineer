@@ -11,7 +11,7 @@
 - Practical - SAS Token/Access Key
 - Q&A
 
-Azure Storage Account
+## Azure Storage Account
 - Key functionalities
 - When to choose Azure Storage or Azure Data Lake Storage?
 - Q&A
