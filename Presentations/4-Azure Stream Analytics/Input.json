@@ -1,0 +1,13 @@
+{
+    "City" : "Delhi",
+    "Coordinates" :
+    {
+        "Latitude": 77,
+        "Longitude": 28
+    },
+    "Census" :
+    {
+        "Population" : 125000,
+        "Region" : "Central India"
+    }
+}
