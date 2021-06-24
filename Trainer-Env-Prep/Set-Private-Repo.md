@@ -39,10 +39,11 @@ git pull; git add *; git commit -am "-"; git push github-origin master
 ```
 git checkout am1
 git merge master
+notepad .gitignore
 ```
 
 
-- In case we need to remove private files from public repo:
+- (Optional) In case we need to remove private files from public repo:
 ```
 git rm -r --cached ....
 git add *

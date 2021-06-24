@@ -1,0 +1,14 @@
+Operation on target Copy_mk0 failed: ErrorCode=SqlOperationFailed,'Type=Microsoft.DataTransfer.Common.Shared.HybridDeliveryException,Message=A database operation failed. Please search error to get more details.,Source=Microsoft.DataTransfer.ClientLibrary,''Type=System.Data.SqlClient.SqlException,Message=Cannot create a row of size 9904 which is greater than the allowable maximum row size of 8060.
+The statement has been terminated.,Source=.Net SqlClient Data Provider,SqlErrorNumber=511,Class=16,ErrorCode=-2146232060,State=1,Errors=[{Class=16,Number=511,State=1,Message=Cannot create a row of size 9904 which is greater than the allowable maximum row size of 8060.,},{Class=0,Number=3621,State=0,Message=The statement has been terminated.,},],'
+
+
+https://docs.microsoft.com/en-us/answers/questions/114567/error-when-trying-to-copy-data.html
+https://docs.microsoft.com/en-us/answers/questions/257805/azure-data-factory-issue.html
+
+
+https://dba.stackexchange.com/questions/105852/cannot-create-a-row-of-size-xxxx-which-is-greater-than-the-allowable-maximum-row
+
+https://www.sqlservercentral.com/forums/topic/cannot-create-a-row-of-size-xxxx-which-is-greater-than-the-allowable-maximum-row-size-of-8060
+
+https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/ms143432(v=sql.105)?redirectedfrom=MSDN
+
