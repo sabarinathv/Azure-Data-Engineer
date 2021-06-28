@@ -47,7 +47,7 @@ git push github-origin master
 git checkout master
 del .gitignore; copy .gitignore-github .gitignore
 git pull github-origin master; git add *; git commit -am "-"; git push github-origin master
-
+```
 
 - Push to private repo (Gitlab)
 ```
