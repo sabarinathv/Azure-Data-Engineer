@@ -1,0 +1,14 @@
+# Azure Data Bricks
+- What is Azure Databricks?
+- Azure Spark-based Analytics Platform
+- Apache Spark in Azure Databricks
+- Architecture - Key capabilities and benefits
+- Practical - How to create clusters and best practice.
+- Practical - Mounting Storage using SAS Token/AccessKey
+- Practical - Reading Data & Writing data - ADLS Gen 2
+- Practical - DataFrame Operations - Python/Scala
+- Practical - Managed/UnManaged/Delta Tables
+- Practical - Reading JSON File
+- Practical - Reading and Writing into SQL Table
+- Practical - Reading from CosmosDB
+- Practical - PROBLEM STATEMENT
