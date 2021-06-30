@@ -1,6 +1,6 @@
 # Provision Datalake
 - Create a Datalake named - dldatabricks21
-- Create Container - inputData
+- Create Container - inputdata
 - Create Folder - data
 
 # Provision Databricks, Clusters and workbook
@@ -12,6 +12,10 @@
 - Create SP using CLI
 ```
 az account set --subscription 34ea504b-f779-4be0-892d-f968f164113d
+az ad sp create-for-rbac -n "spDataBricksDataLake2" --skip-assignment
+```
+
+- Below is the sample output
 ```
 {
   "appId": "b9344d96-c48b-426c-8551-68ee134b70ac",
@@ -20,7 +24,10 @@ az account set --subscription 34ea504b-f779-4be0-892d-f968f164113d
   "password": "<>",
   "tenant": "6bb2f9af-a0af-4c32-a5ec-5f7011d37551"
 }
+```
 
+- Open container - inputdata in azure portal and assign role - "Storage Blob Data Reader" to SP - spDataBricksDataLake2
+-
 - Mount ADLS to Databricks using Secret Scope
   - Refer to the code in jupyter notebook
 
@@ -29,7 +36,7 @@ az account set --subscription 34ea504b-f779-4be0-892d-f968f164113d
   - In Desktop Storage Explorer, Open Data Lake - dldatabricks
   - Create blobb container - inputdata
   - Click Manage Access
-    - Add SP named spDataBricksDataLake
+    - Add SP named spDataBricksDataLake2
       - Provide rights - Read, Write, Execute
 
 - Refer the notebook for the code
